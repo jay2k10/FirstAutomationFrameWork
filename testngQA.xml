@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/FirstAutomationFrameWork">
         <classes>
-            <class name = "com.testingacademy.tests.VWOLogin"></class>
+            <class name = "com.testingacademy.tests.vwoTests.VWOLogin"></class>
         </classes>
     </test>
 </suite>

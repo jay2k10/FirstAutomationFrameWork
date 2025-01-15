@@ -1,0 +1,1 @@
+{"uuid":"ead20b75-cf7c-4ef9-ad33-15ce792e3372","name":"/FirstAutomationFrameWork","children":["413a6bd3-63ac-4197-a450-fdf6d00efbe5"],"befores":[{"name":"setUP","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1736872902907,"stop":1736872907866}],"afters":[],"start":1736872902862,"stop":1736872922595}

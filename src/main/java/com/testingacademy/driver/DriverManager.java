@@ -1,10 +1,19 @@
 package com.testingacademy.driver;
 
 import com.testingacademy.utils.PropertyReader;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.Select;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Locale;
 
@@ -27,18 +36,26 @@ public class DriverManager {
         if (driver == null) {
             switch (browser) {
                 case "edge":
-                    driver = new EdgeDriver();
-                    driver.manage().window().maximize();
+                    EdgeOptions edgeOptions = new EdgeOptions();
+                    edgeOptions.addArguments("--start-maximized");
+                    edgeOptions.addArguments("--guest");
+                    driver = new EdgeDriver(edgeOptions);
                     break;
                 case "chrome":
-                    driver = new ChromeDriver();
-                    driver.manage().window().maximize();
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.addArguments("--start-maximized");
+                    driver = new ChromeDriver(chromeOptions);
+                    break;
+                case "firefox":
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.addArguments("--start-maximized");
+                    driver = new FirefoxDriver(firefoxOptions);
                     break;
                 default:
-                    System.out.println("Browser not found!!");
+                    System.out.println("Not browser Found!!");
             }
-        }
 
+        }
     }
 
     public static void down() {
@@ -48,5 +65,6 @@ public class DriverManager {
         }
 
     }
+
 
 }

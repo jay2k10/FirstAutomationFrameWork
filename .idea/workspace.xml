@@ -4,17 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6628305e-0c80-4f63-8cbf-9e037647251b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/VWOLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngQA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6628305e-0c80-4f63-8cbf-9e037647251b" name="Changes" comment="Set up is done!">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/base/CommonToAllPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManagerSelenoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManagerTL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/DashboardPage_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/LoginPage_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/base/CommonToAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/listeners/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/katalonStudio/TestKatalonLogin_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/sample/TestVWOLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM_Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-P0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-env.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-pf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-pom-retry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-sanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa-smoke.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/VWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/VWOLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngQA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngQA.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +78,8 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml.executor": "Run",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml.executor": "Run",
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml.executor": "Run",
     "TestNG.VWOLogin.testVwoLoginNegative.executor": "Run",
     "git-widget-placeholder": "master",
@@ -74,20 +93,7 @@
       <recent name="C:\Users\Naman\IdeaProjects\FirstAutomationFrameWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.App" />
-      <module name="FirstAutomationFrameWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingacademy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <extension name="coverage">
@@ -103,9 +109,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa-pom-retry.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngQA.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -117,12 +143,12 @@
       <module name="FirstAutomationFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingacademy.tests.*" />
+          <option name="PATTERN" value="com.testingacademy.tests.vwoTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testingacademy.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.VWOLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.vwoTests.VWOLogin" />
       <option name="METHOD_NAME" value="testVwoLoginNegative" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -133,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml" />
+        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml" />
         <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml" />
         <item itemvalue="TestNG.VWOLogin.testVwoLoginNegative" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +176,30 @@
       <option name="presentableId" value="Default" />
       <updated>1736859621301</updated>
     </task>
+    <task id="LOCAL-00001" summary="Set up is done!">
+      <option name="closed" value="true" />
+      <created>1736873574325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736873574325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Set up is done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up is done!" />
   </component>
 </project>
