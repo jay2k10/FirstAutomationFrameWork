@@ -5,33 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6628305e-0c80-4f63-8cbf-9e037647251b" name="Changes" comment="Set up is done!">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/base/CommonToAllPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManagerSelenoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManagerTL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/DashboardPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/base/CommonToAllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/katalonStudio/TestKatalonLogin_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/sample/TestVWOLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM_Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-P0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-env.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-pf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-pom-retry.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa-smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/Katalon_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectVWO/ClickFreeAcount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectVWO/EnterDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectVWO/EnterEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTestSignup/TestSignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-VWO-signup-POM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-katalon-login-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/VWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/VWOLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngQA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngQA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/LoginPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/katalonStudio/TestKatalonLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/katalonStudio/TestKatalonLogin_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM_Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM_Retry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +36,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jay2k10"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jay2k10&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jay2k10/FirstAutomationFrameWork.git",
-    "accountId": "d2406445-fbfd-4b78-8a1d-3c1743bc8a57"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jay2k10/FirstAutomationFrameWork.git&quot;,
+    &quot;accountId&quot;: &quot;d2406445-fbfd-4b78-8a1d-3c1743bc8a57&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2rcY1hIIzFCgxJyBVRFjVMF7W73" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,10 +66,23 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml.executor": "Run",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml.executor": "Run",
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml.executor": "Run",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom.xml.executor": "Run",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-sanity.xml.executor": "Run",
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml.executor": "Run",
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml.executor": "Run",
+    "TestNG.LoginPage_POM.executor": "Run",
+    "TestNG.LoginPage_POM.loginToVWOInvalidCreds.executor": "Run",
+    "TestNG.TestKatalonLogin_POM.testLoginPage.executor": "Run",
+    "TestNG.TestSignUp.clickOnFreeTrialAccount.executor": "Run",
+    "TestNG.TestSignupPage.executor": "Run",
+    "TestNG.TestSignupPage.freeTrial.executor": "Run",
+    "TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor": "Run",
     "TestNG.VWOLogin.testVwoLoginNegative.executor": "Run",
+    "TestNG.testSignupPage.freeTrial.executor": "Run",
+    "TestNG.testSignupPage.free_Trial.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork",
@@ -93,63 +94,74 @@
       <recent name="C:\Users\Naman\IdeaProjects\FirstAutomationFrameWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml">
+    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-VWO-signup-POM.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-katalon-login-pom.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKatalonLogin_POM.testLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingacademy.*" />
+          <option name="PATTERN" value="com.testingacademy.tests.katalonStudio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstAutomationFrameWork" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa-pom-retry.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.katalonStudio" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.katalonStudio.TestKatalonLogin_POM" />
+      <option name="METHOD_NAME" value="testLoginPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstAutomationFrameWork" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngQA.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstAutomationFrameWork" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VWOLogin.testVwoLoginNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSignUp.clickOnFreeTrialAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingacademy.tests.vwoTests.*" />
+          <option name="PATTERN" value="com.testingacademy.tests.vwoTestSignup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.vwoTests.VWOLogin" />
-      <option name="METHOD_NAME" value="testVwoLoginNegative" />
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.vwoTestSignup" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.vwoTestSignup.TestSignUp" />
+      <option name="METHOD_NAME" value="clickOnFreeTrialAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSignupPage.freeTrial" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.tests.vwoTestSignup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.vwoTestSignup" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.vwoTestSignup.TestSignupPage" />
+      <option name="METHOD_NAME" value="freeTrial" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml" />
-        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml" />
-        <item itemvalue="TestNG.VWOLogin.testVwoLoginNegative" />
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml" />
+        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml" />
+        <item itemvalue="TestNG.TestSignUp.clickOnFreeTrialAccount" />
+        <item itemvalue="TestNG.TestSignupPage.freeTrial" />
+        <item itemvalue="TestNG.TestKatalonLogin_POM.testLoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736873574325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set up is done!">
+      <option name="closed" value="true" />
+      <created>1736952896395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736952896395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
