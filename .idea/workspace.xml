@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6628305e-0c80-4f63-8cbf-9e037647251b" name="Changes" comment="Set up is done!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/Katalon_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectVWO/ClickFreeAcount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectVWO/EnterDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectVWO/EnterEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTestSignup/TestSignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-VWO-signup-POM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-katalon-login-pom.xml" afterDir="false" />
+    <list default="true" id="6628305e-0c80-4f63-8cbf-9e037647251b" name="Changes" comment="VWO POM Practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/gmailSignIn/ClickAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/gmailSignIn/EnterPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/HDOR/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/gmailSignIn/GmailSignup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngQAHDOR.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/pageObjectModel/LoginPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/base/CommonToAllPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/katalonStudio/TestKatalonLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/katalonStudio/TestKatalonLogin_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM_Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/vwoTests/TestVWOLogin_POM_Retry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +70,12 @@
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-sanity.xml.executor": "Run",
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml.executor": "Run",
     "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml.executor": "Run",
+    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml.executor": "Run",
+    "TestNG.GmailSignup.Sign.executor": "Run",
+    "TestNG.GmailSignup.executor": "Run",
     "TestNG.LoginPage_POM.executor": "Run",
     "TestNG.LoginPage_POM.loginToVWOInvalidCreds.executor": "Run",
+    "TestNG.LoginTest.positiveLogin.executor": "Run",
     "TestNG.TestKatalonLogin_POM.testLoginPage.executor": "Run",
     "TestNG.TestSignUp.clickOnFreeTrialAccount.executor": "Run",
     "TestNG.TestSignupPage.executor": "Run",
@@ -94,7 +95,7 @@
       <recent name="C:\Users\Naman\IdeaProjects\FirstAutomationFrameWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml">
     <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-VWO-signup-POM.xml" />
@@ -105,9 +106,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-katalon-login-pom.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngQAHDOR.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -115,17 +116,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKatalonLogin_POM.testLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GmailSignup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingacademy.tests.katalonStudio.*" />
+          <option name="PATTERN" value="com.testingacademy.tests.gmailSignIn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.tests.katalonStudio" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.katalonStudio.TestKatalonLogin_POM" />
-      <option name="METHOD_NAME" value="testLoginPage" />
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.gmailSignIn" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.gmailSignIn.GmailSignup" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmailSignup.Sign" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.tests.gmailSignIn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.gmailSignIn" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.gmailSignIn.GmailSignup" />
+      <option name="METHOD_NAME" value="Sign" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,35 +151,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSignUp.clickOnFreeTrialAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.positiveLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstAutomationFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingacademy.tests.vwoTestSignup.*" />
+          <option name="PATTERN" value="com.testingacademy.tests.HDOR.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.tests.vwoTestSignup" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.vwoTestSignup.TestSignUp" />
-      <option name="METHOD_NAME" value="clickOnFreeTrialAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSignupPage.freeTrial" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstAutomationFrameWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingacademy.tests.vwoTestSignup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.tests.vwoTestSignup" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.vwoTestSignup.TestSignupPage" />
-      <option name="METHOD_NAME" value="freeTrial" />
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.HDOR" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.HDOR.LoginTest" />
+      <option name="METHOD_NAME" value="positiveLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml" />
+        <item itemvalue="TestNG.LoginTest.positiveLogin" />
+        <item itemvalue="TestNG.GmailSignup.Sign" />
+        <item itemvalue="TestNG.GmailSignup" />
         <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml" />
-        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml" />
-        <item itemvalue="TestNG.TestSignUp.clickOnFreeTrialAccount" />
-        <item itemvalue="TestNG.TestSignupPage.freeTrial" />
-        <item itemvalue="TestNG.TestKatalonLogin_POM.testLoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736952896395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="VWO POM Practice">
+      <option name="closed" value="true" />
+      <created>1737055255620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737055255620</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up is done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up is done!" />
+    <MESSAGE value="VWO POM Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="VWO POM Practice" />
   </component>
 </project>
