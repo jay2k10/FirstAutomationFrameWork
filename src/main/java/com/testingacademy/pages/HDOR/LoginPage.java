@@ -3,6 +3,7 @@ package com.testingacademy.pages.HDOR;
 import com.testingacademy.base.CommonToAllPage;
 import com.testingacademy.utils.PropertyReader;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -28,6 +29,7 @@ public class LoginPage extends CommonToAllPage {
 
     public void clickContinue() {
         driver.findElement(continueClick).click();
+        //driver.navigate().back();
 
     }
 
@@ -41,6 +43,8 @@ public class LoginPage extends CommonToAllPage {
         presenceOfElement(login);
         driver.findElement(login).click();
     }
+
+
 
 
 }

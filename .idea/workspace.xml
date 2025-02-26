@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6628305e-0c80-4f63-8cbf-9e037647251b" name="Changes" comment="VWO POM Practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/Reports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/gmailSignIn/ClickAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/gmailSignIn/EnterPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/HDOR/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/gmailSignIn/GmailSignup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngQAHDOR.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/ClickonEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/admineComp/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/utils/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/testData/ecompLoginData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/admineComp/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/admineComp/LoginTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testingacademy/pages/HDOR/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/HDOR/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/tests/HDOR/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,52 +56,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "JUnit.AppTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-sanity.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml.executor": "Run",
-    "TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml.executor": "Run",
-    "TestNG.GmailSignup.Sign.executor": "Run",
-    "TestNG.GmailSignup.executor": "Run",
-    "TestNG.LoginPage_POM.executor": "Run",
-    "TestNG.LoginPage_POM.loginToVWOInvalidCreds.executor": "Run",
-    "TestNG.LoginTest.positiveLogin.executor": "Run",
-    "TestNG.TestKatalonLogin_POM.testLoginPage.executor": "Run",
-    "TestNG.TestSignUp.clickOnFreeTrialAccount.executor": "Run",
-    "TestNG.TestSignupPage.executor": "Run",
-    "TestNG.TestSignupPage.freeTrial.executor": "Run",
-    "TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor": "Run",
-    "TestNG.VWOLogin.testVwoLoginNegative.executor": "Run",
-    "TestNG.testSignupPage.freeTrial.executor": "Run",
-    "TestNG.testSignupPage.free_Trial.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-katalon-login-pom.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom-retry.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-pom.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-qa-sanity.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQA.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GmailSignup.Sign.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GmailSignup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPage_POM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPage_POM.loginToVWOInvalidCreds.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.positiveLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestKatalonLogin_POM.testLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSignUp.clickOnFreeTrialAccount.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSignupPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSignupPage.freeTrial.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VWOLogin.testVwoLoginNegative.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testSignupPage.freeTrial.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testSignupPage.free_Trial.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/src/test/java/com/testingacademy/testData&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Naman\IdeaProjects\FirstAutomationFrameWork\src\test\java\com\testingacademy\testData" />
       <recent name="C:\Users\Naman\IdeaProjects\FirstAutomationFrameWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml">
-    <configuration name="C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.loginPositiveTest">
+    <configuration name="LoginTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.admineComp.LoginTest1" />
       <module name="FirstAutomationFrameWork" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-VWO-signup-POM.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.tests.admineComp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,23 +116,6 @@
       <module name="FirstAutomationFrameWork" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngQAHDOR.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmailSignup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstAutomationFrameWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingacademy.tests.gmailSignIn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.tests.gmailSignIn" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.gmailSignIn.GmailSignup" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,6 +133,24 @@
       <option name="PACKAGE_NAME" value="com.testingacademy.tests.gmailSignIn" />
       <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.gmailSignIn.GmailSignup" />
       <option name="METHOD_NAME" value="Sign" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstAutomationFrameWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.tests.admineComp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingacademy.tests.admineComp" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.tests.admineComp.LoginTest" />
+      <option name="METHOD_NAME" value="loginPositiveTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml" />
+        <item itemvalue="TestNG.LoginTest.loginPositiveTest" />
+        <item itemvalue="Application.LoginTest1" />
         <item itemvalue="TestNG.LoginTest.positiveLogin" />
+        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testngQAHDOR.xml" />
         <item itemvalue="TestNG.GmailSignup.Sign" />
-        <item itemvalue="TestNG.GmailSignup" />
-        <item itemvalue="TestNG.C:/Users/Naman/IdeaProjects/FirstAutomationFrameWork/testng-VWO-signup-POM.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737055255620</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="VWO POM Practice">
+      <option name="closed" value="true" />
+      <created>1738349130941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738349130941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,5 +245,16 @@
     <MESSAGE value="Set up is done!" />
     <MESSAGE value="VWO POM Practice" />
     <option name="LAST_COMMIT_MESSAGE" value="VWO POM Practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testingacademy/tests/admineComp/LoginTest1.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

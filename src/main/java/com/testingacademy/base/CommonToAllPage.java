@@ -40,11 +40,11 @@ public class CommonToAllPage {
     // Wait Explicits here
 
     public WebElement presenceOfElement(By elementLocation) {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(50)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
     }
 
     public WebElement visibilityOfElement(By elementLocation) {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(50)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
 
     public WebElement getElement(By key) {

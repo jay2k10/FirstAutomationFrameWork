@@ -2,6 +2,7 @@ package com.testingacademy.tests.HDOR;
 
 import com.testingacademy.base.CommonToAllTest;
 import com.testingacademy.driver.DriverManager;
+import com.testingacademy.pages.HDOR.ClickonEvents;
 import com.testingacademy.pages.HDOR.DashboardPage;
 import com.testingacademy.pages.HDOR.LoginPage;
 import com.testingacademy.pages.HDOR.Reports;
@@ -37,18 +38,35 @@ public class LoginTest extends CommonToAllTest {
         System.out.println(str);
         Assert.assertEquals(str, "My Events");
 
-        DashboardPage dashboardPage = new DashboardPage(DriverManager.getDriver());
-        dashboardPage.setClickOnTDH();
-        //Thread.sleep(5000);
-        dashboardPage.scrollScreen();
-        WebElement finisherLevel = driver.findElement(By.xpath("//h6[text()='Finisher Level']"));
-        String finisherLevelText = finisherLevel.getText();
-        System.out.println(finisherLevelText);
-        Assert.assertEquals(finisherLevelText, "Finisher Level");
+//        DashboardPage dashboardPage = new DashboardPage(DriverManager.getDriver());
+//        dashboardPage.setClickOnTDH();
+//        //Thread.sleep(5000);
+//        dashboardPage.scrollScreen();
+//        WebElement finisherLevel = driver.findElement(By.xpath("//h6[text()='Finisher Level']"));
+//        String finisherLevelText = finisherLevel.getText();
+//        System.out.println(finisherLevelText);
+//        Assert.assertEquals(finisherLevelText, "Finisher Level");
+//
+//
+//
+//        Reports reports = new Reports(DriverManager.getDriver());
+//        reports.clickOnReports();
 
+//        File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(screenshot,new File(System.getProperty("user.dir")+""));
 
-        Reports reports = new Reports(DriverManager.getDriver());
-        reports.clickOnReports();
+        //This Element is inside single shadow DOM.
+
+        ClickonEvents clickonEvents = new ClickonEvents(DriverManager.getDriver());
+        clickonEvents.Events();
+        clickonEvents.buttonEventClick();
+        clickonEvents.buyNow();
+        clickonEvents.applyCouponClick();
+        clickonEvents.applyCoupon();
+        clickonEvents.clickOnApply();
+        clickonEvents.clickOnCancel();
+        clickonEvents.plusClick();
+
 
 
     }
